@@ -22,12 +22,22 @@ $('#get-fortune-button').on('click', showFortune);
 
 
 
-// PART 2: SHOW WEATHER
+// // PART 2: SHOW WEATHER
+// function displayWeather(results) { //success handler
+//     var weather = results;
+//     $('#weather-info').html(weather);   
+// }
 
-function showWeather(evt) {
-    evt.preventDefault();
+// function showWeather(evt) {
+//     evt.preventDefault(); //event handler
+//     var url = "/weather?zipcode=" + $("#zipcode-field").val();
+//     // $.get('/weather?zipcode=')
+// }
 
-    var url = "/weather?zipcode=" + $("#zipcode-field").val();
+// $('#zipcode-field').on('click', showWeather); //event listener
+
+
+
 
     // TODO: request weather with that URL and show the forecast in #weather-info
 }
